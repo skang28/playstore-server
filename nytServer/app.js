@@ -30,6 +30,4 @@ app.get('/books', (req, res) => {
     res.json(results);
 })
 
-app.listen(8000, () => {
-    console.log('Server started on port 8000');
-})
+module.exports = app;
